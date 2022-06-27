@@ -11,12 +11,12 @@ module.exports = {
         const { user, guild } = member;
 
         // Update Member Count
-        sugarman.channels.cache.get("989389527426666546").setName(`🧍┇ Members: ${guild.memberCount}`)
+        sugarman.channels.cache.get("CHANNEL ID").setName(`🧍┇ Members: ${guild.memberCount}`)
 
         // Leave Log
         const leaveLog = new WebhookClient({
-            id: "989073839172517899",
-            token: "ffNuLhxO8FeUI18sp4oDoHwYXdlji4Vg38dRVlxfP6AcQF08sym-1dXWNt3MZaXq6bHo"
+            id: "CHANNEL ID",
+            token: "CHANNEL TOKEN"
         });
 
         const leaveLogMessage = new MessageEmbed()

@@ -21,11 +21,11 @@ module.exports = {
     execute( interaction ) {
         const Target = interaction.options.getMember("target");
 
-        if(!Target.roles.cache.has("990882795863814185")) {
+        if(!Target.roles.cache.has("MUTE ROLE ID")) {
             return interaction.reply({ content: `Ο χρήστης δεν είναι muted.`, ephemeral: true});;
         }
 
-        Target.roles.remove("990882795863814185");
+        Target.roles.remove("MUTE ROLE ID");
 
         interaction.reply({ content: `O ${Target} δεν είναι πλέον muted.`, ephemeral: true});
     }

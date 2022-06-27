@@ -28,7 +28,7 @@ module.exports = {
         .setFooter({ text: `𝗦𝘂𝗴𝗮𝗿𝗺𝗮𝗻©`, iconURL: 'https://cdn.discordapp.com/attachments/989043665383092304/989887434764472450/logo.png'})
         .setTimestamp()
 
-        new WebhookClient({ url: "https://discord.com/api/webhooks/990656900632821820/rFGuMZ27SHGt_R1GLmBAxqmRglaASoqDhD8qc2xDUJiY-mx90cYo2tWWrRgf_YBG36bg"}
+        new WebhookClient({ url: "WEBHOOK URL"}
         ).send({ embeds: [Log]}).catch((err) => console.log(err));
     }
 }

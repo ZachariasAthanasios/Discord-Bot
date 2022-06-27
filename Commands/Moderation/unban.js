@@ -31,8 +31,8 @@ module.exports = {
 
             // Log Message 
             const UnbanResponceLogChannel = new WebhookClient({
-                id: "990647764222369812",
-                token: "nzPxXEJOhxfpKSFjS7YcRQPgFW__0NXG0z2oa1IKmHUMnl8Nb2591j0x5ssSNvzAVNfz"
+                id: "CHANNEL ID",
+                token: "CHANNEL TOKEN"
             });
 
             const UnbanResponce = new MessageEmbed()

@@ -65,8 +65,8 @@ module.exports = {
 
         // Log Message
         const BanResponceLogChannel = new WebhookClient({
-            id: "989196051548368977",
-            token: "m6H9Ulhz_sEre7ZIKQ4L6_E6eiDGbVdnD-NFEL0NY9u-m2i8_f1fFFEWQsu6PphEHMGZ"
+            id: "CHANNEL ID",
+            token: "CHANNEL TOKEN"
         });
 
         const BanResponce = new MessageEmbed()

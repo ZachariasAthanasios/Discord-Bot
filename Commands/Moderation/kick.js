@@ -43,8 +43,8 @@ module.exports = {
 
         // Log Message.
         const KickResponceLogChannel = new WebhookClient({
-            id: "990639155979616266",
-            token: "n9C8u0JabRUFQ946bjwUrhCxyLEk7LfgJUboMEXGNrVRerrlF4Nl6zHi_tbr8SK0ai24"
+            id: "CHANNEL ID",
+            token: "CHANNEL TOKEN"
         });
 
         const KickResponce = new MessageEmbed()
@@ -61,4 +61,3 @@ module.exports = {
         await target.kick();
     }
 }
-// #00FFC3

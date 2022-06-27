@@ -17,6 +17,10 @@ Discord Bot using discord.js v13
 Discord Bot using discord.js v13. 
 A simple discord bot with everything you need for your server.
 
+#### Features
+
+-
+
 ---
 
 ## How To Use

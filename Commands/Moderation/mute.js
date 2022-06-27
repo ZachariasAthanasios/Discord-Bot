@@ -51,14 +51,14 @@ module.exports = {
         if(!Reason) Reason = "Δεν δόθηκε λόγος."
         const Time = interaction.options.getString("preset-time");
 
-        if(!interaction.guild.roles.cache.get("990882795863814185")) {
-            return interaction.followUp({ embeds: [new MessageEmbed().setColor("RED").setDescription("The mute role does not exist.")]});
+        if(!interaction.guild.roles.cache.get("MUTE ROLE ID")) {
+            return interaction.followUp({ embeds: [new MessageEmbed().setColor("RED").setDescription("Ο mute ρόλος δεν υπάρχει.")]});
         }
 
-        await Target.roles.add("990882795863814185");
+        await Target.roles.add("MUTE ROLE ID");
         setTimeout(async () => {
-            if(!Target.roles.cache.has("990882795863814185")) return;
-            await Target.roles.remove("990882795863814185")
+            if(!Target.roles.cache.has("MUTE ROLE ID")) return;
+            await Target.roles.remove("MUTE ROLE ID")
         }, (ms(Time)))
 
         interaction.reply({ content: `${Target} muted for ${Time}`, ephemeral: true});
